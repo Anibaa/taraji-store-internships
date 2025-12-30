@@ -6,86 +6,102 @@ import { useParams } from "next/navigation"
 
 const projectData: Record<string, any> = {
   "it-hr-platform": {
-    title: "IT & HR Platform",
-    description: "Build a comprehensive platform for employee management, recruitment, and HR operations.",
+    title: "Project 1 - Human Resources Management Platform (HRIS)",
+    description: "Centralized platform for employee management and HR operations.",
     longDescription:
-      "An enterprise-level HR and IT management system designed to streamline recruitment, employee onboarding, and performance tracking. This platform integrates with modern tech stacks to provide real-time analytics and automated workflows.",
-    skills: ["React", "Node.js", "PostgreSQL", "Tailwind CSS", "Docker", "AWS"],
-    image: "IT & HR Platform",
+      "A comprehensive Human Resources Information System designed to digitize and optimize internal HR processes. The platform centralizes employee data, automates HR workflows such as leave management and attendance tracking, and ensures secure role-based access. Built to improve operational efficiency and scalability within modern organizations.",
+    skills: ["Next.js", "Node.js", "PostgreSQL", "Tailwind CSS", "Docker"],
+    image: "HR Management Platform",
     duration: "6 months",
-    team: "8-10 members",
+    team: "6-8 members",
     technologies: [
-      { name: "Frontend", items: ["React 18", "TypeScript", "Redux", "Tailwind CSS"] },
-      { name: "Backend", items: ["Node.js", "Express", "PostgreSQL", "Redis"] },
-      { name: "DevOps", items: ["Docker", "AWS EC2", "GitHub Actions"] },
+      { name: "Frontend", items: ["Next.js", "TypeScript", "Tailwind CSS"] },
+      { name: "Backend", items: ["Node.js", "Express", "PostgreSQL"] },
+      { name: "Security", items: ["JWT Authentication", "Role-Based Access Control"] },
     ],
     features: [
-      "Employee Management Dashboard",
-      "Recruitment Workflow Automation",
-      "Performance Analytics",
-      "Real-time Notifications",
+      "Employee Records Management",
+      "Leave & Attendance Tracking",
+      "HR Workflow Automation",
       "Role-based Access Control",
-      "Advanced Reporting",
+      "Internal Process Transparency",
+      "Scalable HR Architecture",
     ],
   },
-  "e-commerce-chatbot": {
-    title: "E-commerce Chatbot",
-    description: "Develop an intelligent chatbot to enhance customer support and boost sales conversion.",
+
+  "intelligent-web-platform": {
+    title: "Project 2 - Intelligent Web Platform with Chatbot",
+    description: "Modern web platform with automation and intelligent user engagement.",
     longDescription:
-      "An AI-powered customer service chatbot that uses natural language processing to handle inquiries, provide product recommendations, and process transactions in real-time.",
-    skills: ["Python", "NLP", "React", "APIs", "Machine Learning"],
-    image: "E-commerce Chatbot",
-    duration: "4 months",
+      "A next-generation web platform built around automation, scalability, and intelligent interaction. The system delivers a seamless user experience through responsive design and automated workflows, while remaining ready for conversational chatbots and future AI-driven modules such as recommendation or predictive services.",
+    skills: ["React", "Node.js", "Automation", "UI/UX", "AI Integration"],
+    image: "Intelligent Web Platform",
+    duration: "5 months",
     team: "5-6 members",
-
+    technologies: [
+      { name: "Frontend", items: ["React", "TypeScript", "Tailwind CSS"] },
+      { name: "Backend", items: ["Node.js", "REST APIs"] },
+      { name: "Automation", items: ["Workflow Engines", "Event-based Processing"] },
+    ],
     features: [
-      "Natural Language Understanding",
-      "Product Recommendation Engine",
-      "Multi-language Support",
-      "Sentiment Analysis",
-      "Order Processing Integration",
-      "Analytics Dashboard",
+      "Responsive User Interface",
+      "Automated Digital Workflows",
+      "Chatbot-Ready Architecture",
+      "Personalized User Experiences",
+      "Secure & Reliable System Design",
+      "AI-Extensible Infrastructure",
     ],
   },
-  "social-media-platform": {
-    title: "Social Media Platform",
-    description: "Create a feature-rich social platform for sports fans and community engagement.",
-    longDescription:
-      "A community-driven social network built for sports enthusiasts, featuring real-time interactions, live updates, and user-generated content with advanced moderation tools.",
-    skills: ["Next.js", "GraphQL", "MongoDB", "Real-time Features"],
-    image: "Social Media Platform",
-    duration: "5 months",
-    team: "7-8 members",
 
+  "mobile-smart-app": {
+    title: "Project 3 - Cross-Platform Mobile Application",
+    description: "Smart mobile application with personalized user experience.",
+    longDescription:
+      "A cross-platform mobile application designed to deliver a fluid and engaging user experience on portable devices. The solution emphasizes personalization, real-time communication, and secure backend integration, while maintaining flexibility for future enhancements such as AI-powered notifications or conversational assistants.",
+    skills: ["React Native", "Firebase", "UX/UI Design", "API Integration"],
+    image: "Mobile Application",
+    duration: "5 months",
+    team: "4-6 members",
+    technologies: [
+      { name: "Mobile", items: ["React Native", "Expo"] },
+      { name: "Backend", items: ["REST APIs", "Firebase"] },
+      { name: "UX/UI", items: ["User-Centered Design", "Mobile UX Patterns"] },
+    ],
     features: [
-      "User Profiles & Following System",
-      "Live Feed & Activity Timeline",
-      "Comments & Reactions",
-      "Direct Messaging",
-      "Trending Topics",
-      "Content Moderation",
+      "Cross-Platform Mobile Support",
+      "Real-time Notifications",
+      "Personalized User Features",
+      "Secure Data Synchronization",
+      "Modern UX/UI Design",
+      "Scalable Mobile Architecture",
     ],
   },
-  "mobile-app": {
-    title: "Mobile App",
-    description: "Design and develop a mobile application for sports merchandise and e-commerce.",
+
+  "unified-interaction-platform": {
+    title: "Project 4 - Unified Digital Interaction Platform",
+    description: "Centralized communication platform with AI-assisted intelligence.",
     longDescription:
-      "A native mobile application for iOS and Android platforms, delivering a seamless shopping experience with push notifications, offline support, and secure payment processing.",
-    skills: ["React Native", "Firebase", "UI/UX", "App Deployment"],
-    image: "Mobile App",
-    duration: "5 months",
+      "A centralized digital workspace that unifies communications from multiple channels and enhances them through AI-assisted conversational intelligence. The platform supports automated classification, prioritization, and smart response suggestions to improve interaction efficiency and reflect modern AI-driven communication systems.",
+    skills: ["AI Assistance", "Automation", "Dashboard Design", "Chatbot Systems"],
+    image: "Unified Interaction Platform",
+    duration: "6 months",
     team: "6-7 members",
-
+    technologies: [
+      { name: "Frontend", items: ["Dashboard UI", "Data Visualization"] },
+      { name: "Backend", items: ["Node.js", "Message Processing APIs"] },
+      { name: "AI Layer", items: ["Conversational Intelligence", "Suggestion Engines"] },
+    ],
     features: [
-      "Product Catalog",
-      "Shopping Cart & Checkout",
-      "Push Notifications",
-      "Offline Mode",
-      "Payment Integration",
-      "User Analytics",
+      "Multi-Channel Communication Centralization",
+      "AI-Assisted Response Suggestions",
+      "Conversation Classification & Prioritization",
+      "Operator Management Dashboard",
+      "Automated Interaction Processing",
+      "Future-Ready AI Architecture",
     ],
   },
 }
+
 
 export default function ProjectDetail() {
   const params = useParams()

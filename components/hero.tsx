@@ -18,8 +18,7 @@ export default function Hero() {
                 Shape the <span className="text-primary">Future</span>
               </h1>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-lg lg:mx-auto font-medium">
-                Our programs focus on practical learning, innovation, and professional growth, allowing interns to work on impactful platforms in web development, mobile applications, automation, and digital systems while gaining experience aligned with industry standards.
-               
+Taraji Store offers hands-on internship and PFE opportunities where students work on real digital projects, gain practical experience, and develop skills aligned with modern industry standards.               
               </p>
             </div>
 

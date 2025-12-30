@@ -21,20 +21,20 @@ export default function About() {
               About <span className="text-primary">Us</span>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed font-medium">
-              Taraji Store is the innovation hub of Espérance Sportive de Tunis, creating transformative internship and
-              PFE opportunities.
+              Taraji Store is the official retail brand of Espérance Sportive de Tunis (EST). 
+              It serves as the authorized channel for the commercialization of the club’s 
+              official merchandise, ensuring the distribution of authentic and certified 
+              products to supporters and the general public.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12">
             <div className="space-y-4 md:space-y-5">
               <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                We provide hands-on internship and PFE programs in e-commerce, web development, mobile apps, and digital
-                marketing. Our mission is to develop next-generation digital professionals.
+                Taraji Store operates a nationwide network of 6 official boutiques and 22 sales points across Tunisia, ensuring broad accessibility to EST merchandise in major cities and regions. In parallel, its e-commerce website and mobile app support an omnichannel strategy that enhances customer engagement, optimizes distribution, and strengthens the club’s national reach.
               </p>
               <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                Through mentorship, innovation, and real-world projects, we create pathways for exceptional talent to
-                shape the future of digital commerce in Tunisia.
+                We offer hands-on internship and PFE programs in e-commerce, web development, mobile applications, and digital marketing to develop next-generation digital professionals.
               </p>
               <a
                 href="#projects"

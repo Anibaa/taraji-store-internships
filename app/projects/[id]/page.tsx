@@ -37,11 +37,7 @@ const projectData: Record<string, any> = {
     image: "E-commerce Chatbot",
     duration: "4 months",
     team: "5-6 members",
-    technologies: [
-      { name: "ML/AI", items: ["Python", "spaCy", "TensorFlow", "NLP Libraries"] },
-      { name: "Frontend", items: ["React", "Socket.io", "Tailwind CSS"] },
-      { name: "Backend", items: ["FastAPI", "MongoDB", "Redis"] },
-    ],
+
     features: [
       "Natural Language Understanding",
       "Product Recommendation Engine",
@@ -60,11 +56,7 @@ const projectData: Record<string, any> = {
     image: "Social Media Platform",
     duration: "5 months",
     team: "7-8 members",
-    technologies: [
-      { name: "Frontend", items: ["Next.js 14", "TypeScript", "TailwindCSS"] },
-      { name: "Backend", items: ["GraphQL", "Apollo Server", "MongoDB"] },
-      { name: "Real-time", items: ["WebSocket", "Redis Pub/Sub"] },
-    ],
+
     features: [
       "User Profiles & Following System",
       "Live Feed & Activity Timeline",
@@ -83,11 +75,7 @@ const projectData: Record<string, any> = {
     image: "Mobile App",
     duration: "5 months",
     team: "6-7 members",
-    technologies: [
-      { name: "Mobile", items: ["React Native", "Expo", "TypeScript"] },
-      { name: "Backend", items: ["Firebase", "Cloud Functions", "Firestore"] },
-      { name: "DevOps", items: ["App Store Connect", "Google Play", "TestFlight"] },
-    ],
+
     features: [
       "Product Catalog",
       "Shopping Cart & Checkout",
@@ -159,29 +147,6 @@ export default function ProjectDetail() {
           </div>
         </div>
 
-        {/* Technologies Section */}
-        <div className="space-y-8 mb-12">
-          <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">Tech Stack</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {project.technologies.map((tech: any, idx: number) => (
-                <div
-                  key={idx}
-                  className="p-6 rounded-lg bg-card/50 border border-border hover:border-primary/30 transition-colors"
-                >
-                  <h3 className="font-semibold text-secondary mb-3">{tech.name}</h3>
-                  <ul className="space-y-2">
-                    {tech.items.map((item: string, i: number) => (
-                      <li key={i} className="text-sm text-muted-foreground">
-                        • {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
 
         {/* Features Section */}
         <div className="space-y-8 mb-12">
@@ -217,6 +182,7 @@ export default function ProjectDetail() {
             </div>
           </div>
         </div>
+
 
         {/* CTA Section - Email format */}
         <div className="border-t border-border pt-12 space-y-6">

@@ -9,7 +9,7 @@ export default function Projects() {
       icon: Code,
       title: "IT & HR Platform",
       desc: "Employee management platform",
-      skills: ["React", "Node.js", "PostgreSQL"],
+      skills: ["Next.js", "Node.js", "MongoDB"],
       id: "it-hr-platform",
     },
     {
@@ -23,7 +23,7 @@ export default function Projects() {
       icon: Users,
       title: "Social Platform",
       desc: "Community engagement network",
-      skills: ["Next.js", "GraphQL", "MongoDB"],
+      skills: ["Next.js", "Node.js", "MongoDB"],
       id: "social-media-platform",
     },
     {

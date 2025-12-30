@@ -36,7 +36,7 @@ export default function Projects() {
   ]
 
   const applyEmail = "internships@taraji-store.com"
-  const emailSubject = "Apply Now - Taraji Store"
+  const emailSubject = "Full Name - Project"
 
   return (
     <section id="projects" className="relative py-16 md:py-24 border-t border-border">

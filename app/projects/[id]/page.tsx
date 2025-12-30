@@ -122,7 +122,7 @@ export default function ProjectDetail() {
   }
 
   const applyEmail = "internships@taraji-store.com"
-  const emailSubject = `Apply Now - ${project.title}`
+  const emailSubject = `Full Name - Project`
 
   return (
     <main className="min-h-screen bg-background">

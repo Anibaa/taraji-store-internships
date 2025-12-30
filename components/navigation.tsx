@@ -46,7 +46,7 @@ export default function Navigation() {
               Projects
             </Link>
             <a
-              href="mailto:internships@tarajistore.tn?subject=Apply%20Now"
+              href="mailto:internships@taraji-store.com?subject=Apply%20Now"
               className="px-5 py-2 bg-primary text-background rounded-lg font-semibold hover:bg-primary/90 transition-all duration-150 text-sm"
             >
               Apply
@@ -74,7 +74,7 @@ export default function Navigation() {
               Projects
             </Link>
             <a
-              href="mailto:internships@tarajistore.tn?subject=Apply%20Now"
+              href="mailto:internships@taraji-store.com?subject=Apply%20Now"
               className="block mt-2 px-4 py-2 bg-primary text-background rounded-lg font-semibold text-center text-sm"
             >
               Apply Now

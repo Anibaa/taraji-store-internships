@@ -35,7 +35,7 @@ export default function Projects() {
     },
   ]
 
-  const applyEmail = "internships@tarajistore.tn"
+  const applyEmail = "internships@taraji-store.com"
   const emailSubject = "Apply Now - Taraji Store"
 
   return (

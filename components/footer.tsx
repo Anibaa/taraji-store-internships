@@ -8,10 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-8 md:mb-12">
           <div className="space-y-3">
             <div className="flex items-center gap-2.5">
-              <div className="w-9 h-9 bg-gradient-to-br from-secondary to-primary rounded-lg flex items-center justify-center text-background font-black text-base">
-                T
-              </div>
-              <span className="font-black text-base text-secondary">Taraji Store</span>
+              <span className="font-black text-base text-secondary">Taraji Store Internships</span>
             </div>
             <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
               Digital platform of Espérance Sportive de Tunis
@@ -79,10 +76,10 @@ export default function Footer() {
             <div className="flex items-start gap-2">
               <Mail size={16} className="text-primary flex-shrink-0 mt-0.5" />
               <a
-                href="mailto:internships@tarajistore.tn"
+                href="mailto:internships@taraji-store.com"
                 className="text-muted-foreground hover:text-primary transition-all duration-150 text-xs md:text-sm break-all"
               >
-                internships@tarajistore.tn
+                internships@taraji-store.com
               </a>
             </div>
           </div>

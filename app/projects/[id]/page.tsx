@@ -117,7 +117,7 @@ export default function ProjectDetail() {
     )
   }
 
-  const applyEmail = "internships@tarajistore.tn"
+  const applyEmail = "internships@taraji-store.com"
   const emailSubject = `Apply Now - ${project.title}`
 
   return (

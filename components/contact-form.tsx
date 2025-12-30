@@ -106,7 +106,7 @@ export default function ContactForm() {
       </button>
 
       <p className="text-xs text-muted-foreground text-center">
-        Don't forget to attach your CV when sending to internships@tarajistore.tn
+        Don't forget to attach your CV when sending to internships@taraji-store.com
       </p>
     </form>
   )

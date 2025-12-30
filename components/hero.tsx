@@ -25,7 +25,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-3 pt-2">
               <a
-                href="mailto:internships@tarajistore.tn?subject=Apply%20Now"
+                href="mailto:internships@taraji-store.com?subject=Apply%20Now"
                 className="px-6 sm:px-8 py-3 md:py-4 bg-secondary text-background rounded-lg font-bold hover:bg-secondary/90 transition-all duration-150 inline-flex items-center justify-center gap-2 text-sm md:text-base"
               >
                 Apply Now <ArrowRight size={18} />
